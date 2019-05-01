@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putihGelap1"
+    android:padding="@dimen/margin_standard"
+    >
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid_warna"
+        android:columnWidth="100dp"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:verticalSpacing="@dimen/margin_standard"
+        android:horizontalSpacing="@dimen/margin_standard"
+        android:stretchMode="columnWidth"
+        >
+
+    </GridView>
+
+
+</RelativeLayout>

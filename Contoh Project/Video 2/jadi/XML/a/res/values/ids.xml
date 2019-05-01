@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="ButtonInit">false</item>
+    <item type="id" name="ButtonOpen">false</item>
+    <item type="id" name="ButtonGetData">false</item>
+    <item type="id" name="ButtonNextFrame">false</item>
+    <item type="id" name="DrawingView01">false</item>
+    <item type="id" name="ad">false</item>
+</resources>

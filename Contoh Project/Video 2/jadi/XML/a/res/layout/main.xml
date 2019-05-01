@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.ccpcreations.android.VLW">
+    <Button android:id="@id/ButtonInit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Init" />
+    <Button android:id="@id/ButtonOpen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Open" />
+    <Button android:id="@id/ButtonGetData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Get data" />
+    <Button android:id="@id/ButtonNextFrame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Get Next Frame" />
+    <com.ccpcreations.android.VLW.DrawingView android:id="@id/DrawingView01" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

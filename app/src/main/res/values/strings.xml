@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Set Walpaper</string>
+    <string name="add_video">Search Video</string>
+    <string name="crop_video">Crop Video</string>
+    <string name="audio">Audio</string>
+    <string name="rate">Rate Us</string>
+    <string name="more_apps">More Apps</string>
+
+    <string name="admob">ca-app-pub-9414114099830753~7582817334</string>
+    <string name="admob2">ca-app-pub-9414114099830753/2939906883</string>
+    <!-- Name in Live Wallpaper Picker list -->
+
+    <string name="lwp_name">Video LiveWallpaper</string>
+
+
+    <!-- Description in Live Wallpaper Picker list -->
+
+    <string name="lwp_desc">Video LiveWallpaper, select a movie and define as livewallpaper</string>
+
+    <!-- Author -->
+    <string name="lwp_author">Ravenfeld</string>
+
+    <string name="picker_toast_prefix">Choose \"</string>
+    <string name="picker_toast_suffix">\" from the list</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="chooser_label">Select a file</string>
+    <string name="mute">Mute movie</string>
+    <string name="mute_enabled">Mute enabled</string>
+    <string name="mute_disabled">Mute disabled</string>
+    <string name="file">Video source</string>
+    <string name="file_summary">File</string>
+    <string name="renderer_mode_list_summary">Mode </string>
+    <string name="renderer_mode_list">Renderer mode</string>
+    <string name="classic">Classic</string>
+    <string name="letter_boxed">Letter_boxed</string>
+    <string name="stretched">Stretched</string>
+
+</resources>

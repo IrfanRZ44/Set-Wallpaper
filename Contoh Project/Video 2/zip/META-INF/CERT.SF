@@ -1,0 +1,43 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: H0WvBnDrQx7LRiGj8GLotI6Cjw0=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: ++Gni2m0ihfXERWYHdfLjXW+aH8=
+
+Name: res/drawable/filepickeritem.xml
+SHA1-Digest: O/n/1vlHw/kZfEg7+Nwz8BjMzWE=
+
+Name: res/xml/vlw.xml
+SHA1-Digest: iz0hogU66zhaWCNhEth32h17xLU=
+
+Name: resources.arsc
+SHA1-Digest: g8qOOPg1HydGSaZwNYFYYZWVNAs=
+
+Name: classes.dex
+SHA1-Digest: TgwnjQHZCwOp49wEGCwjC1OdyoY=
+
+Name: res/layout/main.xml
+SHA1-Digest: /smF0fZ4kmHzNZaYDGVq2PXg7Rg=
+
+Name: res/raw/helpindex_en.html
+SHA1-Digest: nNw1d8W7LiEvQ9YkvsFpxEcfBes=
+
+Name: lib/armeabi/libffmpeg.so
+SHA1-Digest: wlT3H8e2oMxKjyRdWiJIte7HGl4=
+
+Name: AndroidManifest.xml
+SHA1-Digest: OXoxSyRIOak+vrsrzZxNrn/PCN8=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: /Lw1q2YMfI3dd9UBe22UPf1056Y=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: 13cslTLz0U4Ksg7GTGogW9QeXXc=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: /u3X5C3Q2Nf/wsLYZjEeK2IJN0g=
+
+Name: lib/armeabi/libsimpledecoder.so
+SHA1-Digest: WP4hKG02/GMY5vyAkBA4mzmZ/is=
+

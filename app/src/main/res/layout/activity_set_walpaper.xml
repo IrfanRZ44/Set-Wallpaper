@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/putihGelap1"
+    tools:context="com.exomatik.irfanrz.setwalpaper.SetWalpaper">
+
+    <RelativeLayout
+        android:id="@+id/customToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/blue2">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/text_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/back"
+            android:layout_marginLeft="@dimen/margin_standard"
+            android:gravity="center_vertical"
+            android:text="Video Walpaper"
+            android:textColor="@color/putih"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_toolbar"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--android:id="@+id/adView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/customToolbar"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--app:adSize="BANNER"-->
+        <!--app:adUnitId="ca-app-pub-3940256099942544/6300978111" />-->
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/rc_list_video"-->
+    <!--android:layout_below="@+id/adView"-->
+    <!--&gt;</android.support.v7.widget.RecyclerView>-->
+    <GridView
+        android:id="@+id/grid_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_standard"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/margin_standard"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/margin_standard"
+        android:layout_below="@+id/customToolbar"
+        >
+
+    </GridView>
+
+</RelativeLayout>

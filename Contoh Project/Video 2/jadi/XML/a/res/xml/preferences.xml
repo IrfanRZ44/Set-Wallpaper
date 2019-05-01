@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_title" android:key="english_ime_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.ccpcreations.android.VLW">
+    <com.ccpcreations.android.VLW.AdPreference android:id="@id/ad" android:layout_width="fill_parent" android:layout_height="wrap_content" app:backgroundColor="#ff000000" app:primaryTextColor="#ffffffff" app:secondaryTextColor="#ffcccccc" app:keywords="Android Theme Video Live Wallpaper Movie Funny Animation" />
+    <Preference android:title="@string/donate_pref" android:key="donate_btn" android:summary="@string/donate_prefdesc" />
+    <PreferenceCategory android:title="@string/prefs_prefcat" android:key="main_prefs">
+        <Preference android:title="@string/pick_a_file_pref" android:key="pick_a_file" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/recursive_dir_pref" android:key="recursive_dir" android:summary="@string/recursive_dir_prefdesc" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/random_file_mode_pref" android:key="random_file_mode" android:summary="@string/random_file_mode_prefdesc" android:defaultValue="true" />
+        <ListPreference android:persistent="true" android:entries="@array/playingmodes" android:title="@string/playing_mode_pref" android:key="playing_mode" android:summary="@string/playing_mode_prefdesc" android:defaultValue="dr" android:entryValues="@array/playingmodes_values" />
+        <ListPreference android:persistent="true" android:entries="@array/zoomingmodes" android:title="@string/zooming_mode_pref" android:key="zooming_mode" android:summary="@string/zooming_mode_prefdesc" android:defaultValue="cl" android:entryValues="@array/zoomingmodes_values" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/do_not_skip_pref" android:key="do_not_skip" android:summary="@string/do_not_skip_prefdesc" android:defaultValue="false" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/shift_video_pref" android:key="shift_video" android:summary="@string/shift_video_prefdesc" android:defaultValue="true" />
+        <ListPreference android:persistent="true" android:entries="@array/laggingmodes" android:title="@string/swiping_lag_pref" android:key="swiping_lag" android:summary="@string/swiping_lag_prefdesc" android:dependency="shift_video" android:defaultValue="v4" android:entryValues="@array/laggingmodes_values" />
+        <CheckBoxPreference android:persistent="true" android:title="@string/debug_mode_pref" android:key="debug_mode" android:summary="@string/debug_mode_prefdesc" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/help_about_prefcat" android:key="about_prefs">
+        <Preference android:title="@string/help_pref" android:key="help_btn" android:summary="@string/help_prefdesc" />
+        <Preference android:title="@string/changelog_pref" android:key="changelog_btn" android:summary="@string/changelog_prefdesc" />
+        <Preference android:title="@string/about_pref" android:key="about_btn" android:summary="@string/about_prefdesc" />
+    </PreferenceCategory>
+</PreferenceScreen>

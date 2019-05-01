@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customdialog"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="10dp"
+    android:layout_margin="@dimen/margin_big"
+    android:background="@drawable/border_relative_layout"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/img_dialog_fragment"
+        />
+    <TextView
+        android:id="@+id/dialogtextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/hitam"
+        android:textSize="@dimen/text_isi"
+        android:layout_below="@+id/img_dialog_fragment"
+        android:layout_margin="@dimen/margin_small"
+        />
+    <Button
+        android:id="@+id/dialogupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GANTI WALPAPER"
+        android:layout_below="@+id/dialogtextview"
+        android:background="@drawable/border_button_blue"
+        />
+    <Button
+        android:id="@+id/dialogdismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BATAL"
+        android:layout_below="@+id/dialogupdate"
+        android:background="@drawable/border_button_blue"
+        android:layout_marginTop="@dimen/margin_standard"
+        />
+</RelativeLayout>

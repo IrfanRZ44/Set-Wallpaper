@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="playingmodes">
+        <item>@string/playing_mode_working_thread_prefitem</item>
+        <item>@string/playing_mode_delayed_runnable_prefitem</item>
+    </array>
+    <string-array name="playingmodes_values">
+        <item>wt</item>
+        <item>dr</item>
+    </string-array>
+    <array name="zoomingmodes">
+        <item>@string/zooming_mode_classic_prefitem</item>
+        <item>@string/zooming_mode_letterboxed_prefitem</item>
+        <item>@string/zooming_mode_stretched_prefitem</item>
+    </array>
+    <string-array name="zoomingmodes_values">
+        <item>cl</item>
+        <item>lb</item>
+        <item>st</item>
+    </string-array>
+    <array name="laggingmodes">
+        <item>@string/swiping_lag_1_prefitem</item>
+        <item>@string/swiping_lag_2_prefitem</item>
+        <item>@string/swiping_lag_3_prefitem</item>
+        <item>@string/swiping_lag_4_prefitem</item>
+        <item>@string/swiping_lag_5_prefitem</item>
+    </array>
+    <string-array name="laggingmodes_values">
+        <item>v1</item>
+        <item>v2</item>
+        <item>v4</item>
+        <item>v8</item>
+        <item>v16</item>
+    </string-array>
+</resources>

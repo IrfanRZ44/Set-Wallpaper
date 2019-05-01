@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="blue1">#ff99ffff</color>
+    <color name="blue2">#ff1c8adb</color>
+    <color name="blue3">#ff1ab8f9</color>
+    <color name="blue4">#ff181892</color>
+    <color name="putih">#ffffffff</color>
+    <color name="hitam">#FF080808</color>
+    <color name="putihGelap1">#e1dfdf</color>
+    <color name="putihGelap2">#bcb9b9</color>
+    <color name="red">#ec4141</color>
+    <color name="hijau">#52af44</color>
+
+    <color name="gray">#ffb5b6b4</color>
+    <color name="grayGelap">#ff313131</color>
+    <color name="grayMain">#ff616161</color>
+
+    <color name="abu_abu">#ff7f7f7f</color>
+    <color name="merah">#ffed1c24</color>
+    <color name="kuning">#fffff200</color>
+    <color name="pink">#ffffaec9</color>
+    <color name="ungu">#ffa349a4</color>
+    <color name="orange">#ffff7f27</color>
+    <color name="navi">#ff3f48cc</color>
+    <color name="coklat">#ffb97a57</color>
+    <color name="merah_tua">#ff800000</color>
+    <color name="salmon">#ffff8080</color>
+    <color name="steel_blue">#ff408080</color>
+    <color name="dark_green">#ff008000</color>
+    <color name="gold">#ff808000</color>
+    <color name="spring_green">#ff80ff80</color>
+    <color name="indigo">#ff400080</color>
+    <color name="magenta">#ff400040</color>
+    <color name="violet">#ffff80ff</color>
+
+</resources>

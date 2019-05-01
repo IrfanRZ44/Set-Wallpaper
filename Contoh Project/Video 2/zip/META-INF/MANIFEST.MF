@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/xml/preferences.xml
+SHA1-Digest: IqV2n//XAWoLBWUJaC2Yusp2mpA=
+
+Name: res/drawable/filepickeritem.xml
+SHA1-Digest: 9TIil7WrQtVKomGu4/QU8MUc6Uo=
+
+Name: res/xml/vlw.xml
+SHA1-Digest: jd/+hYmyHT+tnOb0IkzG+r6kir0=
+
+Name: resources.arsc
+SHA1-Digest: wSNf0cYmHn2kzr3Su19S7hroSyo=
+
+Name: classes.dex
+SHA1-Digest: txQpa0wHN3xT4qCVFMfDuoFlpa0=
+
+Name: res/layout/main.xml
+SHA1-Digest: //NLLvxAM5JH1VE8KzKVlhQCzy8=
+
+Name: res/raw/helpindex_en.html
+SHA1-Digest: 8elVkwF54iT4j5HMeosgBwjk39I=
+
+Name: lib/armeabi/libffmpeg.so
+SHA1-Digest: 5o4TsDzTpIfTMYYcbky0TCvT5MM=
+
+Name: AndroidManifest.xml
+SHA1-Digest: eEnT4zMcsKrRmSjoLMGfOk3+rYs=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: 6yRCXiFR5RDmYD3VN9+tPpQivGg=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: ptQkFqNvl894SQVV2wJsYXmq8QY=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: V+C23TujtSYL7XKMcz0Bpd3k3Fc=
+
+Name: lib/armeabi/libsimpledecoder.so
+SHA1-Digest: BIjPoRdzQO8bEDNeO1KdYfFqiKM=
+

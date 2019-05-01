@@ -1,0 +1,240 @@
+<html>
+<head><title>Application help</title></head>
+<body>
+  <h3><a name="top">Index</a></h3>
+  <ul>
+  <li><a href="#preferences">Preferences</a></li><br />
+  <ul>
+    <li><a href="#videofileordirectory">Video file or directory</a></li><br />
+    <li><a href="#recursivedirectory">Recursive directory</a></li><br />
+    <li><a href="#randomfile">Random file</a></li><br />
+    <li><a href="#swipingsmoothness">Swiping smoothness</a></li><br />
+    <li><a href="#renderingmode">Rendering mode</a></li><br />
+    <li><a href="#donotskip">Do not skip frames</a></li><br />
+    <li><a href="#shiftvideo">Shift video</a></li><br />
+    <li><a href="#swipinglag">Swiping lag</a></li><br />
+    <li><a href="#debugmode">Debug mode</a></li><br />
+  </ul>
+  <li><a href="#supportedvideoformats">Supported Video Formats</a></li><br />
+  <li><a href="#makingvideo">Making Videos</a></li><br />
+  <ul>
+    <li><a href="#recommendedvideocodecs">Recommended video codecs/formats</a></li><br />
+    <li><a href="#recommendedvideosize">Recommended video sizes and frame rates</a></li><br />
+    <li><a href="#awordaboutbitrate">A word about bitrate</a></li><br />
+    <li><a href="#reencodingwithffmpeg">Reencoding video with FFmpeg</a></li><br />
+  </ul>
+  </ul>
+  
+  
+  <br /><br /><hr />
+  <h2><a name="preferences">Preferences</a></h2><br />
+
+  <h3><a name="videofileordirectory">Video file or directory</a></h3>
+  <p>Select this to choose the video file to play back as your wallpaper. You can browse through
+  the entire file system of your phone. The <i>&lt;go up to ...&gt;</i> option goes one directory back.
+  Your SD card's home directory can be found in the top most directory (it is usually <i>/sdcard/</i>) and is colored red.</p>
+  <p>You can choose a single file or an entire directory for play back. If you select the entire directory, then all
+  videos from that directory (and possibly subdirectories) will be played, according to the preferences below.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+  
+  <h3><a name="recursivedirectory">Recursive directory</a></h3>
+  <p>This option enables all subdirectories in addition to the selected directory.</p>
+  <p>This option is disabled if a single video file is chosen for play back, rather than a directory.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="randomfile"></a>Random file</h3>
+  <p>If you enable this option then video files are played in a random order. If you disable this option then video
+  files are played in an alphabetical order.</p>
+  <p>This option is disabled if a single video file is chosen for play back, rather than a directory.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="swipingsmoothness"></a>Swiping smoothness</h3>
+  <p>You can choose what you want smoother when swiping between home screens. <i>Smoother swiping animation</i> makes all
+  the icons and widgets appear to slide smoother, but freezes the video in the background. <i>Smoother video</i> does the
+  opposite: it doesn't freeze the video, but the widgets and icons may not slide as smooth.</p>
+  <p>This effect is only visible on some home screen replacement apps, like Launcher Pro.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="renderingmode">Rendering mode</a></h3>
+  <p>You can choose the way that videos will draw to the screen. <i>Classic mode</i> fits the video in the same way that
+  images are fitted when used for a wallpaper. The video will always fill out the entire display and the borders that
+  didn't fit will be cut away. These borders are then used for the shifting action when the user is swiping the screen.
+  <i>Letterboxed mode</i> does the opposite: it always shows the entire video on the screen, even if it means introducing
+  black borders. <i>Stretched mode</i> stretches the video over the entire display so no part is cut off and there are no
+  black borders, but the video might end up looking distorted.
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="donotskip">Do not skip frames</a></h3>
+  <p>Sometimes videos are too complex to be played back smoothly. They are either too big in resolution or have
+  a frame rate that is too high. If this option is disabled then the live wallpaper will attempt to skip frames
+  to play the video as close to the original speed as possible. Enable this option if you prefer smooth animation
+  and don't care much about slow speed.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="shiftvideo">Shift video</a></h3>
+  <p>If this option is enabled then the video will shift left and right when swiping between home screens.
+  If this option is disabled then the video will stay centered.</p>
+  <p>This effect is only visible if the video is wider than the screen.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="swipinglag"></a>Swiping lag</h3>
+  <p>This setting tells the live wallpaper how fast it should shift the video when swiping. You can
+  select one of five stages, ranging from <i>instant</i> which shifts the video at the same time as swiping occurs,
+  to <i>slow</i> which makes the shifting animation very slow.</p>
+  <p>This setting has no effect if the video is not wider than the screen. This setting is disabled if video shifting is disabled.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="debugmode">Debug mode</a></h3>
+  <p>If this option is enabled then the current/wanted FPS value is displayed at the center of the wallpaper.
+  Also, the device's logcat is filled with all kinds of debugging information. Keep this option disabled unless
+  you are making a video and want to see the FPS or you are instructed to turn it on by the support/developer.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+
+  <br /><br /><hr />
+  <h2><a name="supportedvideoformats">Supported Video Formats</a></h2><br />
+  
+  <p>This live wallpaper uses FFmpeg to decode videos. This means that every video format that FFmpeg supports is
+  also supported here. These include:
+  <ul> <li>.avi</li><li>.mp4</li><li>.3gp</li><li>.mpg</li><li>.flv</li><li>.3g2</li><li>.asf</li><li>.dv</li>
+  <li>.mov</li><li>.mpeg</li><li>.rm</li><li>.vcd</li><li>.vob</li><li>.wmv</li>
+  </ul></p>
+  
+  <p>Many video codecs are also supported. Please refer to the FFmpeg documentation for the complete list.</p>
+  
+  <p>Audio is not supported as this is a live wallpaper and is not supposed to emit sounds.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+
+  <br /><br /><hr />
+  <h2><a name="makingvideo">Making Videos</a></h2><br />
+
+  <h3><a name="recommendedvideocodecs">Recommended video codecs/formats</a></h3>
+  <p>While this live wallpaper supports many video formats and codecs, some of them are more suitable than others.</p>
+  <p>The most recommended codecs/formats are (in this order):
+  <ul>
+  <li>mpeg1video (MPEG-1) with .mpg format</li>
+  <li>mpeg2video (MPEG-2) with .vob format</li>
+  <li>mjpeg (Motion JPEG) with .avi format</li>
+  <li>mpeg4 (Mpeg-4 part 2, commonly known as DivX, XviD or 3ivX) with .avi format</li>
+  </ul></p>
+  <p>There are some codecs/formats that are common on android devices but are not recommended due to excessive
+  complexity which makes them decode slow and unnecessarily wastes battery power:
+  <ul>
+  <li>h263 (H.263) with .3gp format</li>
+  <li>h264 (H.264) with .mp4 or .flv format</li>
+  </ul></p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+  
+  <h3><a name="recommendedvideosize">Recommended video sizes and frame rates</a></h3>
+  <p>Because of the limited resources of your device, you have to be careful about the resolution and frame
+  rate when making videos for live wallpapers. If the resolution is too big then the video might be skipping
+  frames or the live wallpaper might even crash because of shortage of memory. The general upper limit to the
+  resolution should be <b>854x480 pixels</b>. The general upper limit to frame rate should be <b>30 FPS</b>.
+  You should not go to the maximum resolution and frame rate in the same video!</p>
+  
+  <p>One way of calculating if your settings are OK is to multiply them. Multiply:
+  <pre>  width * height * frame rate</pre>
+  If you get &lt;=3.400.000, you can use any codec. If you get &lt;=5.800.000, you can use any recommended codec.
+  If you get &lt;=8.200.000, you should only use mpeg1video or mpeg2video. You shouldn't get more than 8.200.000!
+  If you do, decrease size or frame rate.</p>
+  
+  <p>The most common resolution/frame rate combinations that are recommended (4:3 or 16:9 ratio):
+  <ul>
+  <li>264x200 or 356x200 at 30FPS (any codec)</li>
+  <li>320x240 or 428x240 at 30FPS (any codec)</li>
+  <li>480x360 or 640x360 at 25FPS (recommended codecs)</li>
+  <li>480x360 or 640x360 at 30FPS (mpeg1video or mpeg2video)</li>
+  <li>640x480 or 854x480 at 20FPS (mpeg1video or mpeg2video)</li>
+  </ul></p>
+  
+  <p>Any resolution below 854x480 is supported so if your video has a non-standard resolution, do the calculation
+  above and if it fits into any of the three categories, resizing is not required.</p>
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+  
+  <h3><a name="awordaboutbitrate">A word about bitrate</a></h3>
+  <p>When you are reencoding video, you are often asked to provide a bitrate. A bitrate is a number which
+  tells the codec how much storage space on average it is allowed to spend on a single second of video. The unit is
+  <i>bits per second</i> or just <i>bps</i>. This number is usually very large so it is often shortened by a factor
+  of 1000. Such a value has a unit called <i>kilobits per second</i> or <i>kbps</i>.</p>
+  
+  <p>The bitrate is used to find a compromise between the video file's size and the video quality. With a small bitrate,
+  the file is small but the video is of very bad quality. As the bitrate is increased, the quality gets
+  better but the file size gets bigger.</p>
+  
+  <p>If you don't care much about file size, then a high bitrate like 3000 kbps should be more than enough to produce
+  nice quality videos at the recommended resolutions and frame rates. Generally, the bitrate gives an estimate of the
+  resulting file size. The formula involved is:
+  <pre>  video_size_in_MB = bitrate_in_kbps * 128 * video_length_in_seconds</pre>
+  This holds true if there is no audio and if the bitrate is not too small for the given resolution.</p>
+  
+  <p>You should also consider what codec you use. Some codecs need more bitrate to generate a nice quality image than
+  others. 3000 kbps should be more than enough for mpeg4 for example, but might not be enough for mjpeg or mpeg1video.</p>
+
+  <p>Do not go overboard with the bitrate. Keep in mind that storage memory in phones and other embedded devices is slower
+  than on most bigger machines. A 100 MB file for a minute of a video is probably too much!</p>
+  
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+
+  <h3><a name="reencodingwithffmpeg">Reencoding video with FFmpeg</a></h3>
+  <p>FFmpeg is a free tool that can be used to reencode your videos to a more appropriate codec/format for the
+  live wallpaper. FFmpeg can be found all over the internet and is available for Windows, Linux and Mac. Search
+  for "<i>ffmpeg executable for windows/linux/mac</i>" to find it. If you are using linux then FFmpeg is probably
+  already included with your setup.</p>
+  
+  <p>FFmpeg is a console executable. On Windows you access it via the Command Prompt (cmd.exe), on Linux or Mac
+  you use a terminal. Usage of cmd or terminal is beyond the scope of this help so search the internet if you need
+  additional help. Alternatively, you can look for graphical frontends to FFmpeg but then this chapter will probably
+  not be of much use to you.</p>
+  
+  <p>To get information about your existing video file, use the following command:
+  <pre>  ffmpeg -i "video file"</pre>
+  This command will output all the information about the <i>video file</i>. Look for the video stream, where you will
+  be able to find the duration, bitrate, codec, resolution and frame rate (fps or tbr). If everything fits the
+  recommended values in the previous chapters then the video doesn't need reencoding and is ready. If such a video
+  contains audio and you would like to get rid of it as it is not needed, the following command does this quickly:
+  <pre>  ffmpeg -i "video file" -an -vcodec copy "output file"</pre>
+  This command will make an <i>output file</i> that only contains video from the <i>video file</i>.</p>
+  
+  <p>To fully reencode the video, use the following command:
+  <pre>  ffmpeg [options_1] -i "video file" -an [options_2] -vcodec &lt;video_codec&gt; -vb &lt;bitrate&gt; "output file"</pre>
+  Substitute <i>[options_1]</i> with zero, one or more of the following:
+  <ul>
+  <li>-ss time_in_seconds<br />if you wish to skip to <i>time_in_seconds</i> and start encoding from there</li>
+  <li>-t time_in_seconds<br />if you wish to encode only <i>time_in_seconds</i> seconds of the video</li>
+  </ul>
+  Substitute <i>[options_2]</i> with zero, one or more of the following:
+  <ul>
+  <li>-s size<br />if you wish to resize the video (for example to <i>640x480</i>)</li>
+  <li>-r framerate<br />if you wish to set a new frame rate in FPS (for example to <i>25</i> or <i>23.976</i>)</li>
+  </ul>
+  Substitute <i>&lt;video_codec&gt;</i> with one of the supported video codecs, for example <i>mpeg1video</i> or <i>mpeg4</i>.</p>
+  
+  <p>Substitute <i>&lt;bitrate&gt;</i> with the wanted bitrate in bits per second, for example <i>1000000</i> or <i>1000k</i>, which is the same.</p>
+  
+  <p>If you wish to keep the sound (which will NOT be played as the live wallpaper), substitute <i>-an</i> with <i>-acodec copy</i>.</p>
+  
+  <p>---</p>
+  <p>An example of a full command would be:
+  <pre>  ffmpeg -ss 15 -i "myvideo.avi" -an -s 640x360 -vcodec mpeg4 -vb 1500k "result.avi"</pre>
+  This command would:
+  <ul>
+  <li>start at the 15th second of the original video</li>
+  <li>encode until the end of the original video (because -t option is missing)</li>
+  <li>encode the myvideo.avi file (the "original" video)</li>
+  <li>cut out and disable the sound from the result (the -an flag)</li>
+  <li>resize the result to 640x360</li>
+  <li>keep the same frame rate as in the original video (because -r option is missing)</li>
+  <li>use the mpeg4 (DivX/XviD/3ivX) video codec to encode</li>
+  <li>use the bitrate of 1.500.000 bits per second</li>
+  <li>save the result into the file named result.avi</li>
+  </ul>
+  </p>
+  
+  <p>---</p>
+  <p>The FFmpeg supports much more options than are mentioned and explained here. Please refer to the documentation of FFmpeg to find out more.</p>
+  
+  <p><a href="#top">&lt;Back to top&gt;</a><br /><br /></p>
+  
+</body>
+</html>

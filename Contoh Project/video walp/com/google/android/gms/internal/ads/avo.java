@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.IInterface;
+
+public abstract interface avo
+  extends IInterface
+{
+  public abstract void a(avc paramavc);
+}
+
+
+/* Location:           C:\Users\IrfanRZ\Desktop\video walp\classes_dex2jar.jar
+ * Qualified Name:     com.google.android.gms.internal.ads.avo
+ * JD-Core Version:    0.7.0.1
+ */
